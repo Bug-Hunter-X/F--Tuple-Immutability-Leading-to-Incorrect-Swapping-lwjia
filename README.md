@@ -1,0 +1,3 @@
+# F# Tuple Immutability and Swapping
+
+This repository demonstrates a common pitfall in F# related to the immutability of tuples.  When attempting to swap the values of two variables using a function that returns a new tuple, the original variables remain unchanged, leading to unexpected results. The example showcases different approaches to variable swapping and highlights the key difference between mutable variables and immutable tuples.  The solution provides a way to correctly swap the values using techniques that respect the immutability of F# data structures.
